@@ -1,0 +1,22 @@
+{
+  "name": "javascript-create-simple-dom",
+  "version": "0.0.1",
+  "description": "javascript small library for simplify creating dom-elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wert2all/javascript-create-simple-dom.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "wert2all <wert2all@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wert2all/javascript-create-simple-dom/issues"
+  },
+  "homepage": "https://github.com/wert2all/javascript-create-simple-dom#readme"
+}
