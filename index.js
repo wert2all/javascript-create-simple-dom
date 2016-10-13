@@ -5,7 +5,8 @@ define(function () {
     return {
         create: function (tag) {
             var _obj = document.createElement(tag),
-                _classes = {};
+                _classes = {},
+                self = this;
 
             return {
                 attr: function (attr, value) {
@@ -27,7 +28,7 @@ define(function () {
                     return this;
                 },
                 text: function (text) {
-                    _obj.appendChild(document.createTextNode(text));
+                    _obj.appendChild(self.text(text));
                     return this;
                 },
                 event: function (event, func) {
@@ -41,6 +42,9 @@ define(function () {
                     return _obj;
                 }
             };
+        },
+        text: function (text) {
+            return document.createTextNode(text);
         }
-    };
+    }
 });
