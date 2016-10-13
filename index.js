@@ -45,6 +45,9 @@ define(function () {
         },
         text: function (text) {
             return document.createTextNode(text);
+        },
+        replace: function (needle, replace) {
+            needle.parentNode.replaceChild(replace, needle);
         }
     }
 });

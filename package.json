@@ -1,6 +1,6 @@
 {
   "name": "javascript-create-simple-dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript small library for simplify creating dom-elements",
   "main": "index.js",
   "scripts": {
